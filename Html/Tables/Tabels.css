@@ -1,0 +1,12 @@
+/*Add your CSS below!*/
+td {
+    height: 50px;
+    border: blue 1px dashed;
+}
+
+table {
+    border: 1px solid black;
+}
+
+/* This takes off any decoration on texst */
+    text-decoration: none;
