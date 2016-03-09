@@ -43,5 +43,38 @@ div div div h3 {
 
 }
 .class {
-	
+
+}
+
+a:link {
+    text-decoration: none;
+    color:#008B45;
+}
+
+a:hover {
+    color:#00FF00;
+}
+a:visited {
+    color:#EE9A00;
+}
+
+/*first one in line */
+p:first-child {
+    font-family:cursive;
+}
+
+p:nth-child(2) {
+    font-family:Tahoma;
+}
+
+p:nth-child(3) {
+    color:#CC0000;
+}
+
+p:nth-child(4) {
+    background-color: #00FF00;
+}
+
+p:nth-child(5) {
+    font-size:22px;
 }
