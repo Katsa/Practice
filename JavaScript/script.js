@@ -1,13 +1,38 @@
-// Check if the user is ready to play!
+ // Check if the user is ready to play!
 
-confirm("This is to confirm if the user is ready"); //popup with message to indicate if user is ready
-var age = prompt("What's your age"); //popup asking user their age
+confirm("This is to confirm if the user is ready");
+
+var age = prompt("What's your age");
+
+
 
 if(age < 13) {
-    console.log("You can play, but I have responsibility"); //print to console
+    console.log("You can play, but I have responsibility");
 
 }
-else {
-console.log("Go paly");
 
+else {
+    console.log("Go paly");
+
+}
+
+console.log("You are at a Justin Bieber concert, and you hear this lyric 'Lace my shoes off, start racing.'")
+console.log("Suddenly, Bieber stops and says, 'Who wants to race me?'")
+var userAnswer = prompt("Do you want to race Bieber on stage?")
+
+if(userAnswer == "yes") {
+    console.log("You and Bieber start racing. It's neck and neck! You win by a shoelace!");
+}
+
+else {
+    console.log("Oh no! Bieber shakes his head and sings 'I set a pace, so I can race without pacing.'");
+}
+
+var feedback = prompt("Can you please rate my game on a scale of 1 to 10");
+
+if(feedback > 8) {
+    console.log("Thank you! We should race at the next concert!");
+}
+else {
+    console.log("I'll keep practicing coding and racing.")
 }
